@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    body,html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+    }
+
+    #btn-size-change {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 65px;
+        height: 30px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        background-color: #335079;
+        border-radius: 10px;
+        border: none;
+    }
+  }
+  
+ 
+  @media (max-width: 767px) {
+    body,html {
+      display: block;
+      background-color: wheat;
+    }
+  }
+  
